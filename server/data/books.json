@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1752868889788",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-help",
+    "status": "To Read",
+    "cover": null
+  },
+  {
+    "id": "1752869429239",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "status": "To Read",
+    "cover": null
+  },
+  {
+    "id": "1752869489185",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "genre": "Business",
+    "status": "Reading",
+    "cover": null
+  },
+  {
+    "id": "1752869871623",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "status": "Reading",
+    "cover": null
+  },
+  {
+    "id": "1752869927255",
+    "title": "Harry Potter",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "status": "To Read",
+    "cover": null
+  }
+]
