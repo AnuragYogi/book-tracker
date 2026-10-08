@@ -20,7 +20,7 @@ const BookCard = ({ book, onEdit, onDelete, onStatusUpdate }) => {
 
   const imageUrl = book.coverImage?.startsWith('http') 
     ? book.coverImage 
-    : `http://localhost:5000${book.coverImage}`;
+    : `${import.meta.env.VITE_API_URL}${book.coverImage}`;
 
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group flex flex-col h-full">

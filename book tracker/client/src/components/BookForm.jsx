@@ -34,7 +34,7 @@ const BookForm = ({ bookToEdit, onComplete }) => {
       if (bookToEdit.coverImage) {
         setImagePreview(bookToEdit.coverImage.startsWith('http') 
           ? bookToEdit.coverImage 
-          : `http://localhost:5000${bookToEdit.coverImage}`);
+          : `${import.meta.env.VITE_API_URL}${bookToEdit.coverImage}`);
       }
     }
   }, [bookToEdit]);
